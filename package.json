@@ -1,0 +1,37 @@
+{
+  "name": "opencart_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:master": "playwright test --grep @master",
+    "test:master:headed": "playwright test --grep @master --headed",
+    "test:sanity": "playwright test --grep @sanity ",
+    "test:sanity:headed": "playwright test --grep @sanity --headed",
+    "test:regression": "playwright test --grep @regression",
+    "test:regression:headed": "playwright test --grep @regression --headed",
+    "test:master:debug": "playwright test --grep @master --debug",
+    "test:sanity:debug": "playwright test --grep @sanity --debug",
+    "test:regression:debug": "playwright test --grep @regression --debug",
+    "test:datadriven:headed": "playwright test --grep @datadriven --headed",
+    "test:datadriven:debug": "playwright test --grep @datadriven --debug",
+    "test:SearchProduct:headed": "playwright test SearchProduct.spec.ts --headed",
+    "test:UserLogout:headed":"playwright test UserLogout.spec.ts --headed",
+    "test:AddToCart:headed":"playwright test AddToCart.spec.ts --headed"
+    
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.10",
+    "allure-playwright": "^3.4.5"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.2.0",
+    "csv-parse": "^6.1.0",
+    "xlsx": "^0.18.5"
+  }
+}
