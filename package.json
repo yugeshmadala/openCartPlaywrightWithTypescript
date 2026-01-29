@@ -17,7 +17,8 @@
     "test:datadriven:debug": "playwright test --grep @datadriven --debug",
     "test:SearchProduct:headed": "playwright test SearchProduct.spec.ts --headed",
     "test:UserLogout:headed":"playwright test UserLogout.spec.ts --headed",
-    "test:AddToCart:headed":"playwright test AddToCart.spec.ts --headed"
+    "test:AddToCart:headed":"playwright test AddToCart.spec.ts --headed",
+    "test:EndToEndTest:endtoend":"playwright test --grep @endtoend"
     
 },
   "keywords": [],

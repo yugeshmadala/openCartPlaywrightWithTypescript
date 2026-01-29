@@ -1,3 +1,5 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
 "","5354","login test yugeshyogi972@gmail.com","chromium","2026-01-28","passed","2026-01-28","login with user yugeshyogi972@gmail.com","loginwithmultipleusers.spec.ts","",""
+"","35881","User registration test @master @sanity @regression","chromium","2026-01-29","passed","2026-01-29","","AccountRegistration.spec.ts","",""
+"","10175","User login, test @master @sanity @regression","chromium","2026-01-29","passed","2026-01-29","","Login.spec.ts","",""
 "","4643","login test example123@gmail.com","chromium","2026-01-28","passed","2026-01-28","login with user example123@gmail.com","loginwithmultipleusers.spec.ts","",""
