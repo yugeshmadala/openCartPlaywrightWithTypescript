@@ -1,0 +1,9 @@
+Confirmation message not found: TimeoutError: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('.alert-success') to be visible
+
+textfalse
+Confirmation message not found: TimeoutError: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('.alert-success') to be visible
+
