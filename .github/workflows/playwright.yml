@@ -29,6 +29,22 @@ jobs:
       #run: npx playwright test
       #run: npx playwright test --grep "@sanity"
       run: npm run test:sanity
+
+    - name: Install Allure CLI
+      if: always()
+      run: npm install allure-commandline --save-dev
+
+    - name: Generate Allure HTML Report
+      if: always()
+      run: npx allure generate allure-results -o allure-report --clean
+
+    - name: Upload Allure HTML Report
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: allure-report
+        path: allure-report/
+        retention-days: 30
     
     - name: Upload Playwright HTML Report
       if: always()
